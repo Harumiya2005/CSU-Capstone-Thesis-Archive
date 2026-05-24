@@ -130,7 +130,7 @@ const handleLogin = async () => {
           <svg class="w-12 h-12 text-yellow-400 drop-shadow-md" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72l5 2.73 5-2.73v3.72z"/></svg>
         </div>
         <h1 class="text-3xl font-extrabold text-white tracking-tight">Caraga State University</h1>
-        <p class="text-green-200 font-medium mt-1">CCIS Capstone & Thesis Archive</p>
+        <p class="text-green-200 font-medium mt-1">CSU Capstone & Thesis Archive</p>
       </div>
 
       <div class="bg-white/95 backdrop-blur-xl p-8 rounded-2xl shadow-2xl border border-white/50">
