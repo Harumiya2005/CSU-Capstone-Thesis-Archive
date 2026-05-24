@@ -22,5 +22,8 @@ RUN a2enmod rewrite
 # Install PHP dependencies
 RUN composer install
 
+# Build the bridge for PDF uploads
+RUN php artisan storage:link
+
 # Give Laravel permission to write to storage files
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public/storage
