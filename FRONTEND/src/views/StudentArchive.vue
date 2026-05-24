@@ -303,7 +303,8 @@ onUnmounted(() => {
           </div>
 
           <div class="px-6 py-5 bg-gray-50 border-t border-gray-100">
-            <a :href="`http://127.0.0.1:8000/storage/${thesis.file_path}`" 
+            <!-- <a :href="`http://127.0.0.1:8000/storage/${thesis.file_path}`"  -->
+             <a :href="`https://csu-capstone-thesis-archive.onrender.com/storage/${thesis.file_path}`"
                target="_blank" 
                rel="noopener noreferrer" 
                class="w-full flex items-center justify-center bg-gradient-to-r from-[#16a34a] to-green-700 hover:from-green-700 hover:to-green-800 text-white font-bold py-2.5 px-4 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg transform group-hover:scale-[1.02] gap-2">
